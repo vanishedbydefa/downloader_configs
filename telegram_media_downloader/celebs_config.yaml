@@ -1,6 +1,9 @@
-api_hash: 2122f2e4c21239eebd0a6725203ecef9
-api_id: 28984697
+api_hash: INSERT API HASH
+api_id: INSERT API ID
 chat:
+#Julia Beutx
+- chat_id: BeautxJulia
+  last_read_message_id: 0
 #Ich.tina
 - chat_id: -1001949427513
   last_read_message_id: 0
@@ -199,7 +202,7 @@ file_formats:
   - epub
   video:
   - mp4
-save_path: Q:/Telegram
+save_path: <INSERT PATH HERE>
 file_path_prefix:
 - chat_title
 hide_file_name: false
