@@ -1,4 +1,10 @@
 # How to use (Windows only)
+This extension will only work if you created a virtual enviroment for gallery-dl.
+You can create it in the main gallery-dl folder
+1. `Q:\programs\gallery-dl$ python -m venv .venv`
+2. `Q:\programs\gallery-dl$ .venv\Scripts\activate.bat`
+3. `Q:\programs\gallery-dl$ pip install -r requirements.txt`
+
 1. Download gallery-dl-mass.py and place it in the gallery-dl main folder
 2. Create a file profiles.txt in which you store links to the profile of which you want to download media
   * You can place reddit and or twitter links in profiles.txt
