@@ -7,3 +7,4 @@ For some downloaders you may need to rename the config files. Have a look at [na
 | gallery-dl | True   | False |
 | twitter-media-downloader | True | False |
 | instaloader | False | True |
+| discord-downloader | True | False |
