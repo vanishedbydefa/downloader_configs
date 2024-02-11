@@ -1,0 +1,113 @@
+{
+    "credentials": {
+        "email": "<INSERT ACCOUNTS EMAIL HERE>",
+        "password": "<INSERT ACCOUNTS PW HERE>",
+        "twitterEnabled": false,
+        "instagramEnabled": false
+    },
+
+    "admins": [
+        "<INSERT ADMIN USER ID HERE>"
+    ],
+    "adminChannels": [
+        {
+            "channel": "<INSERT ADMIN CHANNEL HERE>",
+            "logProgram": false,
+            "logStatus": false,
+            "logErrors": true,
+            "unlockCommands": false
+        }
+    ],
+    "processLimit": 22,
+
+    "debug": true,
+    "backupDatabaseOnStart": true,
+    "watchSettings": true,
+    "settingsOutput": true,
+    "messageOutput": true,
+    "messageOutputHistory": false,
+
+    "discordLogLevel": 0,
+    "discordTimeout": 180,
+    "downloadTimeout": 60,
+    "downloadRetryMax": 3,
+    "exitOnBadConnection": false,
+    "githubUpdateChecking": true,
+
+    "commandPrefix": "ddg ",
+    "commandTagging": true,
+    "scanOwnMessages": true,
+    "allowGeneralCommands": true,
+    "inflateDownloadCount": 0,
+    "europeanNumbers": false,
+
+    "historyManagerRate": 5,
+    "checkupRate": 30,
+    "connectionCheckRate": 5,
+    "presenceRefreshRate": 3,
+
+    "save": true,
+    "allowCommands": true,  
+    "scanEdits": true,
+    "ignoreBots": false,
+
+    "filenameDateFormat": "2006-01-02_15-04-05",
+    "filenameFormat": "{{date}} {{file}}",
+
+    "presenceEnabled": true,
+    "presenceStatus": "idle",
+    "presenceType": 2,
+    "presenceLabel": "{{timeSavedShort}} - {{countShort}} files",
+    "presenceDetails": "{{timeSavedLong}}",
+    "presenceDetails": "{{count}} files total",
+
+    "reactWhenDownloaded": false,
+    "reactWhenDownloadedEmoji": "",
+    "reactWhenDownloadedHistory": false,
+    "overwriteDefaultReaction": "",
+    "historyTyping": false,
+    "embedColor": "",
+
+    "historyMaxJobs": 3,
+    "autoHistory": true,
+    "autoHistoryBefore": "",
+    "autoHistorySince": "",
+    "sendAutoHistoryStatus": false,
+    "sendHistoryStatus": false,
+    "historyRequestCount": 100, 
+    "historyRequestDelay": 1,
+
+    "subfolders": ["{{serverName}}","{{channelName}}","{{fileType}}"],
+    "saveImages": true,
+    "saveVideos": true,
+    "saveAudioFiles": true,
+    "saveTextFiles": false,
+    "saveOtherFiles": true,
+    "savePossibleDuplicates": false,
+    "delayHandling": 0,
+    "delayHandlingHistory": 0,
+
+    
+    "duplo": false,
+    "duploThreshold": 0,
+
+    "allBlacklistUsers": [ "" ],
+    "allBlacklistServers": [ "" ],
+    "allBlacklistCategories": [ "1129730679828127804", "1133760925111959692", "1086306149055348746",
+                                "1076515454698410135", "1074432632378626083", "1151251777086300231",
+                                "1028679617692840007", "1028679616589733919", "1028679618758184993",
+                                "1028679619454439496", "1028679620867919932", "1062148566023405628",
+                                "1174645949243600927", "1059786671064875069", "1019616898457014363",
+                                "1197606361400344596", "1019604000858980383", "1154413915200036995",
+                                "1142654004728447006", "1142100442063585434", "1172935713508053014",
+                                "1173932107752538112" ],
+    "allBlacklistChannels": [ "" ],
+
+    "servers": [
+        {
+            "servers": [ "1141833036510527578", "1129730679178006628", "1074432632378626081", "1028679327702863952",
+                         "1059763923911458897", "1019604000858980382", "1172935713508053013"  ],
+            "destination": "Q:\Discord"
+        }
+    ]
+}
