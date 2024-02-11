@@ -39,4 +39,4 @@ while True:
     # Write the updated contents back to the file
     with open("twitter_profiles.txt", 'w') as f:
         for profile in profiles:
-            f.write(profile)
+            f.write(profile + '\n')
