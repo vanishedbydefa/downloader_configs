@@ -9,5 +9,5 @@ To download a profils feed, current stories and highlights, use:
 ```
 instaloader -s --highlights --no-video-thumbnails --no-captions --no-metadata-json --sanitize-paths --no-iphone -l <YOUR INSTAGRAM NAME> <PROFILE NAME YOU WANT TO DOWNLOAD FROM>
 ```
-# [discord-downloader]([https://github.com/instaloader/instaloader](https://github.com/get-got/discord-downloader-go)https://github.com/get-got/discord-downloader-go)
+# [discord-downloader](https://github.com/instaloader/instaloader](https://github.com/get-got/discord-downloader-go)https://github.com/get-got/discord-downloader-go)
 On Windows, place the 'settings.json' file in the same folder as the executable.
