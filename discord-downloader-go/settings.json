@@ -74,7 +74,7 @@
     "autoHistorySince": "",
     "sendAutoHistoryStatus": false,
     "sendHistoryStatus": false,
-    "historyRequestCount": 100, 
+    "historyRequestCount": 90, 
     "historyRequestDelay": 1,
 
     "subfolders": ["{{serverName}}","{{channelName}}","{{fileType}}"],
